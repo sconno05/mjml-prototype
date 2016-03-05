@@ -1,0 +1,10 @@
+<mj-body>
+  <mj-section>
+    <mj-column>
+      <mj-text>Sample text</mj-text>
+      <mj-raw>{{#if showOtherSample}}</mj-raw>
+        <mj-text>Other Sample</mj-text>
+      <mj-raw>{{/if}}</mj-raw>
+    </mj-column>
+  </mj-section>
+</mj-body>
