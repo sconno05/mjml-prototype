@@ -18,8 +18,8 @@ var transporter = nodemailer.createTransport('ENTER SMTP SERVER HERE');
 
 // setup e-mail data with unicode symbols
 var mailOptions = {
-    from: '"Sean Connolly" <sean@six88.com>', // sender address
-    to: ['sconnolly17@gmail.com'], // list of receivers
+    from: '"ENTER FROM EMAIL HERE', // sender address
+    to: ['ENTER TO EMAIL HERE'], // list of receivers
     subject: 'MJML Test', // Subject line
     text: 'MJML Test', // plaintext body
     html: htmlOutput // html body
